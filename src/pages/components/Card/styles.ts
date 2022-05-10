@@ -37,6 +37,13 @@ export const Offer = styled.p`
   color: #1fa52b;
 `
 
+export const Link = styled.a`
+  font-size: 1.6rem;
+  color: #2344e8;
+  margin-top: 20px;
+  text-decoration: underline;
+`
+
 export const FooterCard = styled.div`
   display: flex;
   margin-top: 20px;

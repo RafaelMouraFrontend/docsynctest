@@ -23,7 +23,7 @@ const Card = ({ card }) => (
 
         <S.Price>RD$32,00/unit</S.Price>
         <S.Offer>Buy 3 get 1 free</S.Offer>
-        <a href="">view details</a>
+        <S.Link>view details</S.Link>
       </S.Description>
 
       <S.FooterCard>
