@@ -6,15 +6,6 @@ export const slice = createSlice({
   initialState: [
     {
       price: 32,
-      title: 'Cerveja Pretaaaaa',
-      alt: 'Cerbeja Preta Colorado',
-      units: 12,
-      ml: 330,
-      offer: 'Buy 3 get 1 free'
-    },
-
-    {
-      price: 32,
       title: 'Cerveja Preta',
       alt: 'Cerbeja Preta Colorado',
       units: 12,
@@ -24,7 +15,16 @@ export const slice = createSlice({
 
     {
       price: 32,
-      title: 'Cerveja Preta',
+      title: 'Cerveja Comun',
+      alt: 'Cerbeja Preta Colorado',
+      units: 12,
+      ml: 330,
+      offer: 'Buy 3 get 1 free'
+    },
+
+    {
+      price: 32,
+      title: 'Cerveja',
       alt: 'Cerbeja Preta Colorado',
       units: 12,
       ml: 330,
