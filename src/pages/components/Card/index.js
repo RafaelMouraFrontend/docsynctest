@@ -1,7 +1,7 @@
 import * as S from './styles'
 import Image from 'next/image'
 
-const Card = () => (
+const Card = ({ card }) => (
   <>
     <S.Card>
       <S.ImageContainer>
@@ -14,7 +14,7 @@ const Card = () => (
       </S.ImageContainer>
 
       <S.Description>
-        <S.Title>Cerveja Preta</S.Title>
+        <S.Title>{card.title}</S.Title>
 
         <S.HorizontalList>
           <p>12 Unit • </p>
