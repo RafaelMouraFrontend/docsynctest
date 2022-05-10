@@ -1,5 +1,15 @@
-import Main from './components/Main'
+import Card from './components/Card'
+import * as S from '../styles/home'
 
 export default function Home() {
-  return <Main />
+  return (
+    <S.Container>
+      <S.Row>
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+      </S.Row>
+    </S.Container>
+  )
 }
